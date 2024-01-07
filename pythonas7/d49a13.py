@@ -1,0 +1,17 @@
+#tabuada de um número que o usuário escolher: refereência desafio 9 1 até 10 laço {for x in range(,,,)}
+# n = int(input('digite um número: '))
+# print('+'*16)
+# print(' {} x {:2} = {}'.format(n,1,n*1))
+# print(' {} x {:2} = {}'.format(n,2,n*2))
+# print(' {} x {:2} = {}'.format(n,3,n*3))
+# print(' {} x {:2} = {}'.format(n,4,n*4))
+# print(' {} x {:2} = {}'.format(n,5,n*5))
+# print(' {} x {:2} = {}'.format(n,6,n*6))
+# print(' {} x {:2} = {}'.format(n,7,n*7))
+# print(' {} x {:2} = {}'.format(n,8,n*8))
+# print(' {} x {:2} = {}'.format(n,9,n*9))
+# print(' {} x {:2} = {}'.format(n,10,n*10))
+# print('-'*16)
+n = int(input('digite um número: '))
+for c in range (1,10+1,1):
+   print(' {} x {:2} = {:>9}'.format(n, c, n * c))
